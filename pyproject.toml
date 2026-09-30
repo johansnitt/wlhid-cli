@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wlhid-cli"
+version = "0.1.0"
+description = "Read battery, DPI and polling rate from a WLMouse device as JSON."
+readme = "README.md"
+license = "GPL-3.0-only"
+requires-python = ">=3.10"
+dependencies = ["hidapi"]
+
+[project.scripts]
+wlhid = "wlhid_cli:main"
+
+[tool.setuptools]
+py-modules = ["wlhid_cli", "wlmouse"]
