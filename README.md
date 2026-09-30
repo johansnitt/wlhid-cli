@@ -43,6 +43,7 @@ python wlhid_cli.py
 | ------------------- | ------ |
 | 1K Nano Receiver    | `a882` |
 | Ying 8K Receiver    | `a874` |
+| Ying (wired)        | `a875` |
 | Beast X 8K Receiver | `a883` |
 | Beast X 8K (wired)  | `a884` |
 
